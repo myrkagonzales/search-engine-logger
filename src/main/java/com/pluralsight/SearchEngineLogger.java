@@ -18,6 +18,19 @@ public class SearchEngineLogger {
 
     public static final main(String[] args) {
 
+        // create a scanner to read user input
+        Scanner aScanner = new Scanner(System.in);
+
+        // log user launch the application
+        logAction("Launch");
+
+        // display user header
+        System.out.println("--- Search Engine Logger ---");
+
+
+
+    }
+
 
         // appends a single user action with a formatted time stamp to logs.txt
         public static void logAction (String action){
@@ -44,4 +57,4 @@ public class SearchEngineLogger {
         }
 
     }
-}
+
